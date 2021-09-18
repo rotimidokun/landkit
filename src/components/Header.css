@@ -1,0 +1,87 @@
+/* media-query for responsiveness is at the bottom */
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.logo {
+    font-size: 14px;
+    color: #335EEA;
+}
+
+.headerCenter {
+    margin-left: 11rem;
+}
+
+.headerCenter ul {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+}
+
+.headerCenter li {
+    padding-right: 3rem;
+    color: #506690;
+    font-weight: 500;
+}
+
+.headerRight {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+.headerRight p {
+    color: #506690;
+    font-weight: 500;
+    padding-right: 1.2rem;
+}
+
+.buyNowBtn {
+    border: none;
+    background-color: #335EEA;
+    height: 38px;
+    width: 90px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.menuIconContainer {
+    display: none;
+}
+
+.menuIcon {
+    transform: scale(1.3);
+}
+
+
+@media screen and (max-width:1040px) {
+    .headerCenter {
+        margin-left: 6rem;
+    }
+
+}
+
+
+@media screen and (max-width:950px) {
+    .headerCenter {
+        display: none;
+    }
+
+    .headerRight {
+        display: none;
+    }
+
+    .headerContainer {
+        padding: 2rem 2rem 0rem 2rem;
+    }
+    
+    .menuIconContainer {
+    display: unset;
+    }
+}
