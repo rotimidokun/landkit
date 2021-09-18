@@ -375,4 +375,8 @@
     top: 34%;
 }
 
+.ctaContainer {
+    display: unset;
+}
+
 }
