@@ -19,9 +19,12 @@ const Homebody = () => {
                             Forward-thinking businesses use Timekit to imagine, design and manage the perfect scheduling flows to imagine, design and manage.
                         </p>
 
-                        <input type="text" placeholder="(123) 4567-8901" className="inputBox" />
+                        <div className="ctaContainer">
+                            <input type="text" placeholder="(123) 4567-8901" className="inputBox" />
 
-                        <button className="textLinkBtn"> Text link </button>
+                            <button className="textLinkBtn"> Text link </button>
+                        </div>
+                        
                     </div>
 
                     <div className="rightSection1">

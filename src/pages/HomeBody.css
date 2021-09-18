@@ -35,6 +35,10 @@
     padding-bottom: 0.8rem;
 }
 
+.ctaContainer {
+    display: flex;
+}
+
 .rightSection1 {
     display: flex;
     padding-top: 2rem;
@@ -276,6 +280,11 @@
     transform: scale(0.8);
 }
 
+.playBtnContainer {
+    transform: scale(0.9);
+    left: 42%;
+    top: 45%;
+}
 
 }
 
@@ -315,8 +324,21 @@
     max-width: unset;
 }
 
+.playBtnContainer {
+    transform: scale(0.8);
+    left: 42%;
+    top: 44%;
 }
 
+}
+
+@media screen and (max-width:768px) {
+    .playBtnContainer {
+    transform: scale(0.7);
+    left: 39%;
+    top: 43%;
+    }
+}
 
 @media screen and (max-width:480px) {
 .rightSection1 {
@@ -345,6 +367,12 @@
 
 .leftSection1 h3 {
     font-size: 32px;
+}
+
+.playBtnContainer {
+    transform: scale(0.5);
+    left: 28%;
+    top: 34%;
 }
 
 }
